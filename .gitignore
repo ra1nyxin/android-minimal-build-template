@@ -1,0 +1,33 @@
+# Build artifacts
+bin/
+gen/
+out/
+build/
+app/build/
+
+# Gradle
+.gradle/
+build.gradle.kts.swp
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Local environment configuration
+local.properties
+
+# IDE specific (IntelliJ/Android Studio/VS Code)
+.idea/
+*.iml
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
